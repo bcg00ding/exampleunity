@@ -52,4 +52,5 @@ Packages/manifest.json
 Packages/packages-lock.json
 ProjectSettings/*.asset
 ProjectSettings/boot.config
+ProjectSettings/ProjectVersion.txt
 UserSettings/*.asset

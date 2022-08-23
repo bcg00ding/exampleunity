@@ -49,7 +49,7 @@ Assets/__UnityCloud__/
 bvr/
 
 Packages/manifest.json
-Package/packages-lock.json
+Packages/packages-lock.json
 ProjectSettings/*.asset
 ProjectSettings/boot.config
 UserSettings/*.asset

@@ -47,3 +47,9 @@ Assets/__UnityCloud__/
 *.rsp
 *.rsp.meta
 bvr/
+
+Packages/manifest.json
+Package/packages-lock.json
+ProjectSettings/*.asset
+ProjectSettings/boot.config
+UserSettings/*.asset

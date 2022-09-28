@@ -1,0 +1,1 @@
+export OUTPUT_EXECUTABLE_NAME = 'myCustomOutput'

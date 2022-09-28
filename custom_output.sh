@@ -1,1 +1,3 @@
-export OUTPUT_EXECUTABLE_NAME = 'myCustomOutput'
+#!/bin/sh
+
+export OUTPUT_EXECUTABLE_NAME="myCustomOutput"

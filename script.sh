@@ -9,4 +9,4 @@ touch "C:\\Users\\buildbot\\Application Data\\Microsoft\\Crypto\\RSA\\S-1-5-21-3
 ls -lrt "C:\\Users\\buildbot\\Application Data\\Microsoft\\Crypto\\RSA\\S-1-5-21-3446310194-4090932778-461605731-1001\\*"
 
 
-sleep 300000000
+#sleep 300000000

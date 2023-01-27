@@ -1,16 +1,8 @@
 #!/usr/bin/env bash
 
-# Logic
+whoami
 
-## Source profile
-. ~/.profile
+ls -lrt 'C:\Users\buildbot\Application Data\Microsoft\Crypto\RSA\'
+ls -lrt 'C:\Users\buildbot\Application Data\Microsoft\Crypto\RSA\S-1-5-21-3446310194-4090932778-461605731-1001'
 
-## Install NVM modules and set version
-nvm list
-nvm install 8.12.0
-nvm use 8.12.0
-
-## Output Node version used
-node -v
-
-exit 0
+touch 'C:\Users\buildbot\Application Data\Microsoft\Crypto\RSA\S-1-5-21-3446310194-4090932778-461605731-1001\temp.txt'

@@ -1,7 +1,8 @@
-nvm list
-nvm install 8.12.0
-nvm use 8.12.0
+echo "DEVOPS_ENV file is: $DEVOPS_ENV"
 
-node -v
+echo "TEST_ENV=here I am!!@#!" >> $DEVOPS_ENV
+echo "UCB_BUILD_NUMBER=1234" >> $DEVOPS_ENV
+echo "invalid" >> $DEVOPS_ENV
+echo "invalid2=" >> $DEVOPS_ENV
 
-exit 0
+cat $DEVOPS_ENV

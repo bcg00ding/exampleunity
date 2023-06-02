@@ -7,6 +7,7 @@ echo "invalid2=" >> $DEVOPS_ENV
 
 cat $DEVOPS_ENV
 
+export VARIABLE_NAME="HI THERE"
 echo "::mask-env::VARIABLE_NAME"
 echo "::mask-value::SOME_VALUE_TO_HIDE"
 echo "There should be stars in place of SOME_VALUE_TO_HIDE and $VARIABLE_NAME"
